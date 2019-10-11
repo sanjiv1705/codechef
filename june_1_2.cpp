@@ -39,7 +39,7 @@ int main()
         if((f/d)>=0.75)
         {int m = 1;
             break;
-         cout<<"out of the main loop"
+         cout<<"out of the main loop"<<endl;
         }
        else{
         for(i= 2 ; i<d-2; i++)
