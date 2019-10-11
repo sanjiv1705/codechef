@@ -4,7 +4,7 @@
 using namespace std;
 int main()
 {
-    int t , j ;
+  long long  int t , j ;
     cin>>t;
     for(j=0 ; j<t ; j++ )
     {
@@ -39,6 +39,7 @@ int main()
         if((f/d)>=0.75)
         {int m = 1;
             break;
+         cout<<"out of the main loop"
         }
        else{
         for(i= 2 ; i<d-2; i++)
