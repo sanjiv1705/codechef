@@ -1,5 +1,7 @@
+//this is a program which is related to the april long challengen on codechef
 #include<iostream>
 #include<bits/stdc++.h>
+#include<conio>
 using namespace std;
 int main()
 {
@@ -8,7 +10,7 @@ int main()
     int a[n] , b[n];
     for(i = 0 ; i<n ; i++)
         cin>>a[i];
-        sort(a , a+n);
+        sort(a , a+n); //sorts in ascending order.
 
          for(i = n-1 ; i>0 ; i--)
          {
